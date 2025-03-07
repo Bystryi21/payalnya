@@ -1,0 +1,74 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Проект 1",
+      "taskCount": 5,
+      "status": "В процесі",
+      "createdAt": "2025-03-01"
+    },
+    {
+      "id": 2,
+      "name": "Проект 2",
+      "taskCount": 8,
+      "status": "В процесі",
+      "createdAt": "2025-02-20"
+    },
+    {
+      "id": 3,
+      "name": "Проект 3",
+      "taskCount": 3,
+      "status": "В процесі",
+      "createdAt": "2025-01-15"
+    },
+    {
+      "id": 4,
+      "name": "Проект 4",
+      "taskCount": 12,
+      "status": "В процесі",
+      "createdAt": "2025-03-05"
+    },
+    {
+      "id": 5,
+      "name": "Проект 5",
+      "taskCount": 2,
+      "status": "В процесі",
+      "createdAt": "2024-12-10"
+    },
+    {
+      "id": 6,
+      "name": "Проект 6",
+      "taskCount": 10,
+      "status": "В процесі",
+      "createdAt": "2025-02-28"
+    },
+    {
+      "id": 7,
+      "name": "Проект 7",
+      "taskCount": 4,
+      "status": "В процесі",
+      "createdAt": "2025-01-25"
+    },
+    {
+      "id": 8,
+      "name": "Проект 8",
+      "taskCount": 7,
+      "status": "В процесі",
+      "createdAt": "2024-11-20"
+    },
+    {
+      "id": 9,
+      "name": "Проект 9",
+      "taskCount": 6,
+      "status": "В процесі",
+      "createdAt": "2025-03-03"
+    },
+    {
+      "id": 10,
+      "name": "Проект 10",
+      "taskCount": 9,
+      "status": "В процесі",
+      "createdAt": "2025-01-30"
+    }
+  ]
+}
