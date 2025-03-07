@@ -1,8 +1,16 @@
 import { defineStore } from "pinia";
 import axios from "axios";
 
+interface Project {
+  id: number;
+  name: string;
+  taskCount: number;
+  status: string;
+  createdAt: string;
+}
+
 export const useDataStore = defineStore("data", {
-  state: () => ({ data: [] }),
+  state: () => ({ data: [] as Project[] }),
   actions: {
     async getData() {
       try {
