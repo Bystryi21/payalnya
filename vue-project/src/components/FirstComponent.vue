@@ -41,6 +41,7 @@
       </button>
     </form>
   </div>
+
   <table>
     <thead>
       <tr>
@@ -52,6 +53,7 @@
         <th>Дії</th>
       </tr>
     </thead>
+
     <tbody>
       <tr v-for="project in dataStore.data" :key="project.id">
         <td>{{ project.id }}</td>
@@ -135,6 +137,10 @@ td {
 
 th {
   background-color: #f2f2f2;
+}
+
+button {
+  margin-left: 50px;
 }
 
 .firstContainer {

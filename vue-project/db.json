@@ -1,12 +1,8 @@
 {
   "projects": [
     {
-      "name": "Values",
-      "id": "2"
-    },
-    {
       "id": "3",
-      "name": "Проект 3",
+      "name": "Проект 765",
       "taskCount": 3,
       "status": "В процесі",
       "createdAt": "2025-01-15"
@@ -52,20 +48,6 @@
       "taskCount": 0,
       "status": "active",
       "createdAt": "2025-03-09"
-    },
-    {
-      "id": "_ZrtEK-j6lPb-FreXeZ59",
-      "name": "Denysa",
-      "taskCount": 22,
-      "status": "active",
-      "createdAt": "2025-03-09"
-    },
-    {
-      "id": "xNgzM77TYvHih94bhAURa",
-      "name": "Мшсещк",
-      "taskCount": 2999,
-      "status": "Завершений",
-      "createdAt": "2025-03-26"
     }
   ]
 }
