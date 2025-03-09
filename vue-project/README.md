@@ -1,5 +1,19 @@
-# Vue 3 + TypeScript + Vite
+Опис додатку
+Цей додаток дозволяє створювати та керувати проектами, зокрема додавати нові проекти, редагувати існуючі, а також видаляти їх. Кожен проект має такі параметри:
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Назва проекту
+Кількість завдань
+Статус (Активний або Завершений)
+Дата створення
+Додаток реалізовано з використанням Vue.js, Vuex для управління станом, а також компонентів для створення та редагування проектів. Таблиця з проектами дозволяє переглядати інформацію, а також здійснювати операції з редагуванням та видаленням.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+Основні функції:
+Додавання проектів: Створення нового проекту з вказаними параметрами.
+Редагування проектів: Можливість редагувати наявні проекти.
+Видалення проектів: Кожен проект можна видалити зі списку.
+Перегляд інформації: Всі проекти відображаються у вигляді таблиці.
+Технології:
+Vue 3: Фреймворк для розробки інтерактивних інтерфейсів.
+Vuex: Для управління станом додатку.
+Vue Composition API: Для організації коду у вигляді функцій.
+Pinia: Для стану додатку, заміна Vuex.
