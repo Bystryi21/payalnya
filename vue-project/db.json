@@ -15,13 +15,6 @@
       "createdAt": "2025-03-05"
     },
     {
-      "id": "6",
-      "name": "Проект 6",
-      "taskCount": 10,
-      "status": "В процесі",
-      "createdAt": "2025-02-28"
-    },
-    {
       "id": "7",
       "name": "Проект 7",
       "taskCount": 4,
@@ -47,6 +40,13 @@
       "name": "Denys",
       "taskCount": 0,
       "status": "active",
+      "createdAt": "2025-03-09"
+    },
+    {
+      "id": "NSTQ29sZ5e_kyxWiT1Y0v",
+      "name": "SFSFFS",
+      "taskCount": 0,
+      "status": "Активний",
       "createdAt": "2025-03-09"
     }
   ]
