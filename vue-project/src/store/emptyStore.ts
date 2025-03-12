@@ -15,7 +15,9 @@ export const useDataStore = defineStore("data", {
   actions: {
     async getData() {
       try {
-        const response = await axios.get("http://localhost:5000/projects");
+        const response = await axios.get(
+          "https://67d1c24290e0670699bb72ac.mockapi.io/project"
+        );
         console.log(response.data);
 
         this.data = response.data;
@@ -26,7 +28,9 @@ export const useDataStore = defineStore("data", {
 
     async deleteData(id: number) {
       try {
-        await axios.delete(`http://localhost:5000/projects/${id}`);
+        await axios.delete(
+          `https://67d1c24290e0670699bb72ac.mockapi.io/project/${id}`
+        );
         this.data = this.data.filter((project) => project.id !== id);
       } catch (error) {
         console.error("Помилка при видаленні:", error);
@@ -37,7 +41,7 @@ export const useDataStore = defineStore("data", {
       const projectWithId = { ...Project, id: nanoid() };
       try {
         const response = await axios.post(
-          "http://localhost:5000/projects",
+          "https://67d1c24290e0670699bb72ac.mockapi.io/project",
           projectWithId
         );
         this.data.push(response.data);
@@ -48,7 +52,10 @@ export const useDataStore = defineStore("data", {
 
     async editData(id: number, updatedData: Project) {
       try {
-        await axios.patch(`http://localhost:5000/projects/${id}`, updatedData);
+        await axios.patch(
+          `https://67d1c24290e0670699bb72ac.mockapi.io/project/${id}`,
+          updatedData
+        );
         await this.getData();
       } catch (error) {
         console.error("Помилка редагування:", error);
