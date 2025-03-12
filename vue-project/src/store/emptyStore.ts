@@ -52,7 +52,7 @@ export const useDataStore = defineStore("data", {
 
     async editData(id: number, updatedData: Project) {
       try {
-        await axios.patch(
+        await axios.put(
           `https://67d1c24290e0670699bb72ac.mockapi.io/project/${id}`,
           updatedData
         );
